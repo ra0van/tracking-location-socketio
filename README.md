@@ -3,11 +3,6 @@ This project helps us show a demo app view all vehicles are moving on the maps. 
 
 It's not real tracking GPS. I use GPX files exported from Google Direction service to make a fake tracking engine and socketIO to emit data to the clients. Hope you enjoy it :D
 
-### [Live Demo for Website](http://trackinglocation.skylab.vn)
-
-## On React Native: iOS & Android
-![](https://www.dropbox.com/s/ioj9m7xh7k66e0y/demo_react_native.gif?raw=1)
-
 ## Installation
 
 You must have node installed: [Install NodeJS](https://nodejs.org/en/download/).
@@ -15,7 +10,7 @@ You must have node installed: [Install NodeJS](https://nodejs.org/en/download/).
 Clone repository and change directory to it
 
 ``` 
-git clone https://github.com/viettranx/tracking-location-socketio.git 
+git clone https://github.com/rajsherror404/tracking-location-socketio.git 
 cd tracking-location-socketio/server
 ```
 
@@ -59,15 +54,6 @@ You can find default config in `nodemon.json`. That's just simple:
 }
 ```
 Since the nodemon service could not watch itself config, you need to restart it.
-
-## Want to add more route
-This project uses GPX format to emit location info to the clients. Just place any file GPX to `gpx` folder to add more. To create a GPX file, you can use Google Maps Direction service and export it with a shorten URL:
-
-![](https://www.dropbox.com/s/9uf87hwnc3faoof/mapsDirection.png?raw=1)
-
-Then paste the URL to https://mapstogpx.com/pokemon.php to generate GPX file
-
-![](https://www.dropbox.com/s/xfe6b44ccblo64k/mapstopgx.png?raw=1)
 
 ## Run React Native
 You need react-native installed: [React Native](https://facebook.github.io/react-native/docs/getting-started.html)
